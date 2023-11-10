@@ -1,7 +1,11 @@
-name:test artifacts
-on:[push]
+name: test artifacts
+on: 
+  workflow_dispatch:
+  push:
+    branches:
+      - master
 jobs:
-  runs-on:[linux]
+  runs-on: linux
   
   steps:
     - name: gen Upload1
