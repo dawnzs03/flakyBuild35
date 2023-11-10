@@ -11,8 +11,6 @@ jobs:
     steps:
       - name: gen Upload1
 
-        uses: actions/checkout@v3
-
         run: echo hello1 > world1.txt
 
       - name: Upload1
@@ -24,8 +22,6 @@ jobs:
 
 
       - name: gen Upload2
-
-        uses: actions/checkout@v3
 
         run: echo hello2 > world2.txt
 
