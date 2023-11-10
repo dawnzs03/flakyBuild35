@@ -1,5 +1,9 @@
 name:test artifacts
-on: push
+on: 
+  workflow_dispatch:
+  push:
+    branchse:
+      - master
 jobs:
   runs-on: linux
   
