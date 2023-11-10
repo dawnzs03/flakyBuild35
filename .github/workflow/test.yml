@@ -1,7 +1,7 @@
 name:test artifacts
-on:[push]
+on: push
 jobs:
-  runs-on:[linux]
+  runs-on: linux
   
   steps:
     - name: gen Upload1
